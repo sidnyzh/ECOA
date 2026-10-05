@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap');
+
+:root {
+  font-family: 'DM Sans', 'Trebuchet MS', sans-serif;
+  color: #26342b;
+  background: #f2efec;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --eco-brown: #5c4033;
+  --eco-green: #4b7a5d;
+  --eco-copper: #c2916f;
+  --paper: #f2efec;
+  --eco-ink: #26342b;
+  --eco-ink-soft: #62665c;
+  --eco-line: rgba(92, 64, 51, .2);
+  --display: 'Fraunces', Georgia, serif;
+  font-weight: 400;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+body, button, a { font-family: 'DM Sans', 'Trebuchet MS', sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a:focus-visible, button:focus-visible { outline: 2px solid #4b7a5d; outline-offset: 4px; }
+#root { min-height: 100vh; }
+::selection { color: #f2efec; background: #4b7a5d; }
